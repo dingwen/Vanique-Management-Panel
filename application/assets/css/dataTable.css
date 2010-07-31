@@ -1,0 +1,47 @@
+td.center {
+    text-align: center;
+}
+
+tr.hover {
+    background-image: url(../images/hover_0.gif);
+}
+
+tr.highlight {
+    background-image: url(../images/selected_0.gif);
+}
+
+#datatable_wrapper {
+    position: relative;
+}
+
+#datatable_filter, #datatable_length, #datatable_info, #datatable_paginate,
+div.dataTables_filter, div.dataTables_length, div.dataTables_info, div.dataTables_paginate {
+    font-size: 0.8em;
+}
+
+#datatable_length, #datatable_info,
+div.dataTables_length, div.dataTables_info {
+    width: 48%;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+#datatable_filter, #datatable_paginate,
+div.dataTables_paginate, div.dataTables_filter {
+    width: 48%;
+    float: right;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+#datatable_processing, div.dataTables_processing {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 200px;
+    height: 50px;
+}
+
+#datatable tr.odd, table.datatable tr.odd {
+    background-color: honeydew;
+}
